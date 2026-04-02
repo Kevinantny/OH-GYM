@@ -41,43 +41,43 @@
 <section class="px-8 mb-12">
 <div class="flex flex-nowrap overflow-x-auto gap-4 pb-4 no-scrollbar">
 <button class="flex-shrink-0 group">
-<div class="bg-primary-container text-on-primary-fixed p-6 min-w-[120px] flex flex-col items-center justify-center transition-all">
+<div class="bg-primary-container text-on-primary-fixed p-6 min-w-[7.5rem] flex flex-col items-center justify-center transition-all">
 <span class="font-label text-xs font-black uppercase opacity-60">Mon</span>
 <span class="font-headline text-3xl font-black">18</span>
 </div>
 </button>
 <button class="flex-shrink-0 group">
-<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[120px] flex flex-col items-center justify-center transition-all">
+<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[7.5rem] flex flex-col items-center justify-center transition-all">
 <span class="font-label text-xs font-black uppercase opacity-40">Tue</span>
 <span class="font-headline text-3xl font-black">19</span>
 </div>
 </button>
 <button class="flex-shrink-0 group">
-<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[120px] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
+<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[7.5rem] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
 <span class="font-label text-xs font-black uppercase opacity-40">Wed</span>
 <span class="font-headline text-3xl font-black">20</span>
 </div>
 </button>
 <button class="flex-shrink-0 group">
-<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[120px] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
+<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[7.5rem] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
 <span class="font-label text-xs font-black uppercase opacity-40">Thu</span>
 <span class="font-headline text-3xl font-black">21</span>
 </div>
 </button>
 <button class="flex-shrink-0 group">
-<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[120px] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
+<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[7.5rem] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
 <span class="font-label text-xs font-black uppercase opacity-40">Fri</span>
 <span class="font-headline text-3xl font-black">22</span>
 </div>
 </button>
 <button class="flex-shrink-0 group">
-<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[120px] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
+<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[7.5rem] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
 <span class="font-label text-xs font-black uppercase opacity-40">Sat</span>
 <span class="font-headline text-3xl font-black">23</span>
 </div>
 </button>
 <button class="flex-shrink-0 group">
-<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[120px] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
+<div class="bg-surface-container-high hover:bg-surface-container-highest text-on-surface p-6 min-w-[7.5rem] flex flex-col items-center justify-center transition-all border-l border-outline-variant/15">
 <span class="font-label text-xs font-black uppercase opacity-40">Sun</span>
 <span class="font-headline text-3xl font-black">24</span>
 </div>
@@ -90,7 +90,7 @@
 <div class="group relative flex flex-col md:flex-row items-center bg-surface-container-low hover:bg-surface-container-high transition-colors p-1 overflow-hidden">
 <div class="w-full md:w-32 p-6 flex md:flex-col items-center justify-center border-b md:border-b-0 md:border-r border-outline-variant/15">
 <span class="font-headline text-xl font-bold">06:00</span>
-<span class="font-label text-[10px] uppercase tracking-tighter opacity-50 ml-2 md:ml-0 md:mt-1">AM</span>
+<span class="font-label text-[0.625rem] uppercase tracking-tighter opacity-50 ml-2 md:ml-0 md:mt-1">AM</span>
 </div>
 <div class="flex-grow p-8 flex flex-col md:flex-row md:items-center gap-6">
 <div class="w-16 h-16 bg-surface-container-highest overflow-hidden">
@@ -98,14 +98,14 @@
 </div>
 <div>
 <div class="flex items-center gap-3 mb-1">
-<span class="bg-secondary-container text-secondary-fixed text-[10px] font-black px-2 py-0.5 uppercase tracking-widest">Strength</span>
+<span class="bg-secondary-container text-secondary-fixed text-[0.625rem] font-black px-2 py-0.5 uppercase tracking-widest">Strength</span>
 <span class="text-on-surface-variant font-label text-xs uppercase tracking-widest">60 MINS</span>
 </div>
 <h3 class="font-headline text-3xl font-black uppercase tracking-tighter">Power Lifting</h3>
 </div>
 <div class="md:ml-auto flex items-center gap-4">
 <div class="text-right">
-<span class="block font-label text-[10px] uppercase text-on-surface-variant tracking-widest">Lead Trainer</span>
+<span class="block font-label text-[0.625rem] uppercase text-on-surface-variant tracking-widest">Lead Trainer</span>
 <span class="font-headline font-bold uppercase tracking-tight">MARCUS VANE</span>
 </div>
 <button class="bg-white text-black font-headline font-black uppercase text-sm px-8 py-4 hover:bg-primary-container transition-all scale-100 active:scale-95">
@@ -118,7 +118,7 @@
 <div class="group relative flex flex-col md:flex-row items-center bg-surface-container-low hover:bg-surface-container-high transition-colors p-1 overflow-hidden">
 <div class="w-full md:w-32 p-6 flex md:flex-col items-center justify-center border-b md:border-b-0 md:border-r border-outline-variant/15">
 <span class="font-headline text-xl font-bold">08:30</span>
-<span class="font-label text-[10px] uppercase tracking-tighter opacity-50 ml-2 md:ml-0 md:mt-1">AM</span>
+<span class="font-label text-[0.625rem] uppercase tracking-tighter opacity-50 ml-2 md:ml-0 md:mt-1">AM</span>
 </div>
 <div class="flex-grow p-8 flex flex-col md:flex-row md:items-center gap-6">
 <div class="w-16 h-16 bg-surface-container-highest overflow-hidden">
@@ -126,14 +126,14 @@
 </div>
 <div>
 <div class="flex items-center gap-3 mb-1">
-<span class="bg-primary-container text-on-primary-fixed text-[10px] font-black px-2 py-0.5 uppercase tracking-widest">Conditioning</span>
+<span class="bg-primary-container text-on-primary-fixed text-[0.625rem] font-black px-2 py-0.5 uppercase tracking-widest">Conditioning</span>
 <span class="text-on-surface-variant font-label text-xs uppercase tracking-widest">45 MINS</span>
 </div>
 <h3 class="font-headline text-3xl font-black uppercase tracking-tighter">HIIT Engine</h3>
 </div>
 <div class="md:ml-auto flex items-center gap-4">
 <div class="text-right">
-<span class="block font-label text-[10px] uppercase text-on-surface-variant tracking-widest">Lead Trainer</span>
+<span class="block font-label text-[0.625rem] uppercase text-on-surface-variant tracking-widest">Lead Trainer</span>
 <span class="font-headline font-bold uppercase tracking-tight">SARAH CHEN</span>
 </div>
 <button class="bg-white text-black font-headline font-black uppercase text-sm px-8 py-4 hover:bg-primary-container transition-all scale-100 active:scale-95">
@@ -146,7 +146,7 @@
 <div class="group relative flex flex-col md:flex-row items-center bg-surface-container-low/50 transition-colors p-1 overflow-hidden opacity-60">
 <div class="w-full md:w-32 p-6 flex md:flex-col items-center justify-center border-b md:border-b-0 md:border-r border-outline-variant/15">
 <span class="font-headline text-xl font-bold">12:00</span>
-<span class="font-label text-[10px] uppercase tracking-tighter opacity-50 ml-2 md:ml-0 md:mt-1">PM</span>
+<span class="font-label text-[0.625rem] uppercase tracking-tighter opacity-50 ml-2 md:ml-0 md:mt-1">PM</span>
 </div>
 <div class="flex-grow p-8 flex flex-col md:flex-row md:items-center gap-6">
 <div class="w-16 h-16 bg-surface-container-highest overflow-hidden">
@@ -154,14 +154,14 @@
 </div>
 <div>
 <div class="flex items-center gap-3 mb-1">
-<span class="bg-outline-variant/50 text-white text-[10px] font-black px-2 py-0.5 uppercase tracking-widest">Full</span>
+<span class="bg-outline-variant/50 text-white text-[0.625rem] font-black px-2 py-0.5 uppercase tracking-widest">Full</span>
 <span class="text-on-surface-variant font-label text-xs uppercase tracking-widest">50 MINS</span>
 </div>
 <h3 class="font-headline text-3xl font-black uppercase tracking-tighter">OH Cycle</h3>
 </div>
 <div class="md:ml-auto flex items-center gap-4">
 <div class="text-right">
-<span class="block font-label text-[10px] uppercase text-on-surface-variant tracking-widest">Lead Trainer</span>
+<span class="block font-label text-[0.625rem] uppercase text-on-surface-variant tracking-widest">Lead Trainer</span>
 <span class="font-headline font-bold uppercase tracking-tight">KOJI SATŌ</span>
 </div>
 <button class="border border-outline-variant text-white font-headline font-black uppercase text-sm px-8 py-4 hover:bg-surface-container-highest transition-all">
@@ -174,7 +174,7 @@
 <div class="group relative flex flex-col md:flex-row items-center bg-surface-container-low hover:bg-surface-container-high transition-colors p-1 overflow-hidden">
 <div class="w-full md:w-32 p-6 flex md:flex-col items-center justify-center border-b md:border-b-0 md:border-r border-outline-variant/15">
 <span class="font-headline text-xl font-bold">17:30</span>
-<span class="font-label text-[10px] uppercase tracking-tighter opacity-50 ml-2 md:ml-0 md:mt-1">PM</span>
+<span class="font-label text-[0.625rem] uppercase tracking-tighter opacity-50 ml-2 md:ml-0 md:mt-1">PM</span>
 </div>
 <div class="flex-grow p-8 flex flex-col md:flex-row md:items-center gap-6">
 <div class="w-16 h-16 bg-surface-container-highest overflow-hidden">
@@ -182,14 +182,14 @@
 </div>
 <div>
 <div class="flex items-center gap-3 mb-1">
-<span class="bg-tertiary-container text-on-tertiary-container text-[10px] font-black px-2 py-0.5 uppercase tracking-widest">Mobility</span>
+<span class="bg-tertiary-container text-on-tertiary-container text-[0.625rem] font-black px-2 py-0.5 uppercase tracking-widest">Mobility</span>
 <span class="text-on-surface-variant font-label text-xs uppercase tracking-widest">75 MINS</span>
 </div>
 <h3 class="font-headline text-3xl font-black uppercase tracking-tighter">Zen Combat</h3>
 </div>
 <div class="md:ml-auto flex items-center gap-4">
 <div class="text-right">
-<span class="block font-label text-[10px] uppercase text-on-surface-variant tracking-widest">Lead Trainer</span>
+<span class="block font-label text-[0.625rem] uppercase text-on-surface-variant tracking-widest">Lead Trainer</span>
 <span class="font-headline font-bold uppercase tracking-tight">ALEXA REED</span>
 </div>
 <button class="bg-white text-black font-headline font-black uppercase text-sm px-8 py-4 hover:bg-primary-container transition-all scale-100 active:scale-95">
@@ -201,7 +201,7 @@
 </section>
 
 <section class="mt-32 px-8 flex flex-col md:flex-row gap-0">
-<div class="w-full md:w-1/2 relative min-h-[500px] overflow-hidden">
+<div class="w-full md:w-1/2 relative min-h-[31.25rem] overflow-hidden">
 <img class="absolute inset-0 w-full h-full object-cover grayscale hover:scale-105 transition-transform duration-1000" data-alt="Heroic medium shot of a focused athlete with sweat glistening, dark cinematic lighting with subtle lime green color grade" src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?w=1400&auto=format&fit=crop"/>
 <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
 </div>
@@ -244,10 +244,10 @@
 </div>
 <div class="flex flex-col justify-between items-start md:items-end">
 <div class="bg-surface-container-highest p-4 w-full md:w-auto border border-outline-variant/15">
-<span class="block font-label text-[10px] text-[#cafd00] uppercase font-black mb-1">Status</span>
+<span class="block font-label text-[0.625rem] text-[#cafd00] uppercase font-black mb-1">Status</span>
 <span class="font-headline text-lg uppercase font-bold text-white">All Systems Go</span>
 </div>
-<div class="mt-8 md:mt-0 font-manrope text-[10px] tracking-widest text-white/30 uppercase">© 2024 OH GYM. ALL RIGHTS RESERVED. SINCE 2022.</div>
+<div class="mt-8 md:mt-0 font-manrope text-[0.625rem] tracking-widest text-white/30 uppercase">© 2024 OH GYM. ALL RIGHTS RESERVED. SINCE 2022.</div>
 </div>
 </div>
 </footer>

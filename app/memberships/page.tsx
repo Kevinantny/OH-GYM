@@ -84,12 +84,12 @@
 <div class="absolute inset-0 opacity-10 pointer-events-none mix-blend-overlay">
 <img class="w-full h-full object-cover grayscale" data-alt="close up of heavy duty carbon fiber texture with subtle diagonal lines and industrial feel" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1400&auto=format&fit=crop"/>
 </div>
-<div class="relative z-10">
-<div class="flex justify-between items-start mb-12">
-<div>
-<h3 class="font-headline font-black text-5xl uppercase tracking-tighter mb-2 text-on-primary-fixed">Quarterly</h3>
-<div class="bg-on-primary-fixed text-primary-fixed text-[10px] font-black uppercase px-2 py-0.5 inline-block tracking-tighter">Most Popular</div>
-</div>
+            <div class="relative z-10">
+            <div class="flex justify-between items-start mb-12">
+            <div>
+            <h3 class="font-headline font-black text-5xl uppercase tracking-tighter mb-2 text-on-primary-fixed">Quarterly</h3>
+            <div class="bg-on-primary-fixed text-primary-fixed text-[0.625rem] font-black uppercase px-2 py-0.5 inline-block tracking-tighter">Most Popular</div>
+            </div>
 <span class="material-symbols-outlined text-on-primary-fixed text-4xl" data-icon="bolt" style="font-variation-settings: 'FILL' 1;">bolt</span>
 </div>
 <div class="mb-12 flex items-baseline gap-1">
@@ -184,25 +184,25 @@
 </div>
 <div class="grid grid-cols-2 gap-8">
 <div class="flex flex-col gap-4">
-<span class="font-headline font-black uppercase text-[10px] tracking-[0.2em] text-[#cafd00]">Explore</span>
+<span class="font-headline font-black uppercase text-[0.625rem] tracking-[0.2em] text-[#cafd00]">Explore</span>
 <a class="font-manrope text-sm tracking-wide text-white/50 hover:text-[#cafd00] transition-colors" href="/">Locations</a>
 <a class="font-manrope text-sm tracking-wide text-white/50 hover:text-[#cafd00] transition-colors" href="/">Instagram</a>
 </div>
 <div class="flex flex-col gap-4">
-<span class="font-headline font-black uppercase text-[10px] tracking-[0.2em] text-[#cafd00]">Support</span>
+<span class="font-headline font-black uppercase text-[0.625rem] tracking-[0.2em] text-[#cafd00]">Support</span>
 <a class="font-manrope text-sm tracking-wide text-white/50 hover:text-[#cafd00] transition-colors" href="/">TikTok</a>
 <a class="font-manrope text-sm tracking-wide text-white/50 hover:text-[#cafd00] transition-colors" href="/">Newsletter</a>
 </div>
 </div>
 <div class="flex flex-col gap-6">
-<span class="font-headline font-black uppercase text-[10px] tracking-[0.2em] text-[#cafd00]">Stay Kinetic</span>
+<span class="font-headline font-black uppercase text-[0.625rem] tracking-[0.2em] text-[#cafd00]">Stay Kinetic</span>
 <div class="relative">
 <input class="w-full bg-surface-container-highest border-none focus:ring-1 focus:ring-primary-fixed py-4 px-6 font-label text-xs tracking-widest text-on-surface uppercase outline-none" placeholder="ENTER EMAIL" type="email"/>
 <button class="absolute right-4 top-1/2 -translate-y-1/2 text-[#cafd00]">
 <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
 </button>
 </div>
-<p class="font-manrope text-[10px] tracking-widest text-white/30 uppercase italic">© 2024 OH GYM. ALL RIGHTS RESERVED.</p>
+<p class="font-manrope text-[0.625rem] tracking-widest text-white/30 uppercase italic">© 2024 OH GYM. ALL RIGHTS RESERVED.</p>
 </div>
 </div>
 </footer>

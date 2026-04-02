@@ -60,7 +60,7 @@ function Counter({ target, suffix = "" }: { target: number; suffix?: string }) {
 
 /* ─── Section Label ─── */
 function Tag({ text }: { text: string }) {
-  return <span className="inline-block font-body text-[10px] font-bold uppercase tracking-[0.4em] text-primary border border-primary/20 px-4 py-1.5 mb-6">{text}</span>;
+  return <span className="inline-block font-body text-[0.625rem] font-bold uppercase tracking-[0.4em] text-primary border border-primary/20 px-4 py-1.5 mb-6">{text}</span>;
 }
 
 /* ═══════════════════════════════════════════════════
@@ -95,14 +95,14 @@ export default function Home() {
             <img src="/logo.jpg" alt="OH GYM" className="h-10 w-10 object-contain rounded" />
             <div className="hidden sm:block leading-none">
               <p className="font-display text-xs font-black tracking-wider text-white group-hover:text-primary transition-colors">OLD HARBOUR</p>
-              <p className="font-display text-[9px] font-bold tracking-[0.3em] text-primary/70">FITNESS</p>
+              <p className="font-display text-[0.5625rem] font-bold tracking-[0.3em] text-primary/70">FITNESS</p>
             </div>
           </button>
           <div className="hidden md:flex items-center gap-10">
             {NAV.map(({ l, id }) => (
-              <button key={id} onClick={() => go(id)} className="relative font-body text-[11px] font-bold uppercase tracking-[0.2em] text-white/40 hover:text-primary transition-all duration-300 after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-primary hover:after:w-full after:transition-all after:duration-300">{l}</button>
+              <button key={id} onClick={() => go(id)} className="relative font-body text-[0.6875rem] font-bold uppercase tracking-[0.2em] text-white/40 hover:text-primary transition-all duration-300 after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[1px] after:bg-primary hover:after:w-full after:transition-all after:duration-300">{l}</button>
             ))}
-            <a href={WA} target="_blank" rel="noopener noreferrer" className="relative bg-primary text-[#060606] font-display font-bold text-[11px] uppercase tracking-wider px-6 py-2.5 hover:shadow-lg hover:shadow-primary/25 transition-all duration-300 overflow-hidden group">
+            <a href={WA} target="_blank" rel="noopener noreferrer" className="relative bg-primary text-[#060606] font-display font-bold text-[0.6875rem] uppercase tracking-wider px-6 py-2.5 hover:shadow-lg hover:shadow-primary/25 transition-all duration-300 overflow-hidden group">
               <span className="relative z-10">Join Now</span>
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-12" />
             </a>
@@ -146,7 +146,7 @@ export default function Home() {
           <Reveal delay={0.25}>
             <div className="flex items-center gap-1.5 text-primary mt-4 mb-8">
               {[...Array(5)].map((_, i) => <Star key={i} size={13} fill="currentColor" />)}
-              <span className="ml-2 text-white/30 font-body text-[11px] tracking-wider">4.8 Rated Gym in Kochi</span>
+              <span className="ml-2 text-white/30 font-body text-[0.6875rem] tracking-wider">4.8 Rated Gym in Kochi</span>
             </div>
           </Reveal>
           <Reveal delay={0.3}>
@@ -167,7 +167,7 @@ export default function Home() {
             {[{ v: 500, s: "+", l: "Active Members" }, { v: 10, s: "+", l: "Expert Trainers" }, { v: 4, s: ".8★", l: "Google Rating" }, { v: 3, s: "+", l: "Years Strong" }].map(({ v, s, l }) => (
               <div key={l} className="text-center py-5 bg-[#060606]/60 backdrop-blur-sm">
                 <p className="font-display font-black text-xl md:text-2xl text-primary"><Counter target={v} suffix={s} /></p>
-                <p className="font-body text-[8px] uppercase tracking-[0.3em] text-white/25 mt-0.5">{l}</p>
+                <p className="font-body text-[0.5rem] uppercase tracking-[0.3em] text-white/25 mt-0.5">{l}</p>
               </div>
             ))}
           </div>
@@ -183,10 +183,10 @@ export default function Home() {
 
       {/* ══ PROGRAMS ══ */}
       <section id="programs" className="py-32 px-6 lg:px-10 relative">
-        <div className="absolute top-0 left-0 right-0 h-[400px] bg-gradient-to-b from-primary/[0.03] to-transparent pointer-events-none" />
+  <div className="absolute top-0 left-0 right-0 h-[25rem] bg-gradient-to-b from-primary/[0.03] to-transparent pointer-events-none" />
         <div className="max-w-7xl mx-auto relative z-10">
           <Reveal><div className="text-center mb-20"><Tag text="What We Offer" /><h2 className="font-display font-black text-4xl md:text-6xl uppercase tracking-tight">Our Programs</h2></div></Reveal>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 auto-rows-[320px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 auto-rows-[20rem]">
             {PROGRAMS.map(({ Icon, title, desc, img, span }, i) => (
               <Reveal key={title} delay={i * 0.08} className={span}>
                 <div className="group relative w-full h-full overflow-hidden cursor-pointer gradient-border">
@@ -197,7 +197,7 @@ export default function Home() {
                   <div className="absolute bottom-0 left-0 right-0 p-5 md:p-6 transform group-hover:-translate-y-1 transition-transform duration-500">
                     <div className="w-9 h-9 glass flex items-center justify-center mb-3"><Icon size={16} className="text-primary" /></div>
                     <h3 className="font-display font-bold text-sm md:text-base uppercase tracking-wider mb-1">{title}</h3>
-                    <p className="font-body text-[11px] text-white/30 leading-relaxed opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500">{desc}</p>
+                    <p className="font-body text-[0.6875rem] text-white/30 leading-relaxed opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500">{desc}</p>
                   </div>
                 </div>
               </Reveal>
@@ -208,7 +208,7 @@ export default function Home() {
 
       {/* ══ WHY US ══ */}
       <section className="py-32 px-6 lg:px-10 border-y border-white/[0.03] relative overflow-hidden">
-        <div className="absolute -right-40 top-20 w-[500px] h-[500px] rounded-full bg-primary/[0.03] blur-[120px] pointer-events-none" />
+  <div className="absolute -right-40 top-20 w-[31.25rem] h-[31.25rem] rounded-full bg-primary/[0.03] blur-[120px] pointer-events-none" />
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <Reveal direction="left">
             <div className="relative">
@@ -227,7 +227,7 @@ export default function Home() {
               <p className="font-body text-sm text-white/35 leading-relaxed mb-8 max-w-md">We&apos;re a community built on discipline, results, and relentless self-improvement. Located in the heart of Kochi, we combine premium equipment with expert coaching to deliver transformative results you can see and feel.</p>
               <div className="grid grid-cols-2 gap-y-4 gap-x-6 mb-10">
                 {["Premium Equipment", "Expert Coaches", "Proven Results", "Community Driven", "Nutrition Support", "Flexible Hours"].map(t => (
-                  <div key={t} className="flex items-center gap-2.5"><div className="w-1.5 h-1.5 bg-primary flex-shrink-0" /><span className="font-body text-[11px] text-white/40 uppercase tracking-wider">{t}</span></div>
+                  <div key={t} className="flex items-center gap-2.5"><div className="w-1.5 h-1.5 bg-primary flex-shrink-0" /><span className="font-body text-[0.6875rem] text-white/40 uppercase tracking-wider">{t}</span></div>
                 ))}
               </div>
               <a href={WA} target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center gap-2 bg-primary text-[#060606] font-display font-bold text-xs uppercase tracking-wider px-7 py-3.5 overflow-hidden hover:shadow-lg hover:shadow-primary/20 transition-all">
@@ -241,7 +241,7 @@ export default function Home() {
 
       {/* ══ PRICING ══ */}
       <section id="pricing" className="py-32 px-6 lg:px-10 relative overflow-hidden">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-primary/[0.03] rounded-full blur-[150px] pointer-events-none" />
+  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[43.75rem] h-[31.25rem] bg-primary/[0.03] rounded-full blur-[150px] pointer-events-none" />
         <div className="absolute inset-0 bg-grid pointer-events-none opacity-40" />
         <div className="max-w-7xl mx-auto relative z-10">
           <Reveal><div className="text-center mb-20"><Tag text="Membership Plans" /><h2 className="font-display font-black text-4xl md:text-6xl uppercase tracking-tight">Invest In<br className="sm:hidden" /> Yourself</h2></div></Reveal>
@@ -249,13 +249,13 @@ export default function Home() {
             {PLANS.map((p, i) => (
               <Reveal key={p.name} delay={i * 0.12}>
                 <div className={`relative flex flex-col h-full p-7 md:p-8 transition-all duration-500 hover:-translate-y-2 gradient-border ${p.hl ? "bg-white/[0.04] animate-shimmer" : "bg-white/[0.02]"}`}>
-                  <span className={`self-start font-body text-[9px] font-bold uppercase tracking-[0.3em] px-3 py-1 mb-5 ${p.hl ? "bg-primary text-[#060606]" : "border border-white/10 text-white/25"}`}>{p.tag}</span>
+                  <span className={`self-start font-body text-[0.5625rem] font-bold uppercase tracking-[0.3em] px-3 py-1 mb-5 ${p.hl ? "bg-primary text-[#060606]" : "border border-white/10 text-white/25"}`}>{p.tag}</span>
                   <h3 className="font-display font-bold text-lg uppercase tracking-wider mb-1">{p.name}</h3>
                   <div className="mb-6"><span className="font-display font-black text-4xl md:text-5xl text-primary">{p.price}</span><span className="text-white/25 font-body text-sm ml-1">{p.period}</span></div>
                   <ul className="space-y-3 mb-8 flex-grow">
-                    {p.features.map(f => <li key={f} className="flex items-start gap-2.5 text-[12px] font-body text-white/45"><Check size={13} className="text-primary mt-0.5 flex-shrink-0" />{f}</li>)}
+                    {p.features.map(f => <li key={f} className="flex items-start gap-2.5 text-[0.75rem] font-body text-white/45"><Check size={13} className="text-primary mt-0.5 flex-shrink-0" />{f}</li>)}
                   </ul>
-                  <a href={WA} target="_blank" rel="noopener noreferrer" className={`group relative block text-center font-display font-bold text-[11px] uppercase tracking-wider py-3.5 overflow-hidden transition-all ${p.hl ? "bg-primary text-[#060606] hover:shadow-lg hover:shadow-primary/20" : "border border-white/10 text-white/40 hover:border-primary/30 hover:text-primary"}`}>
+                  <a href={WA} target="_blank" rel="noopener noreferrer" className={`group relative block text-center font-display font-bold text-[0.6875rem] uppercase tracking-wider py-3.5 overflow-hidden transition-all ${p.hl ? "bg-primary text-[#060606] hover:shadow-lg hover:shadow-primary/20" : "border border-white/10 text-white/40 hover:border-primary/30 hover:text-primary"}`}>
                     <span className="relative z-10">Get Started →</span>
                     {p.hl && <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 skew-x-12" />}
                   </a>
@@ -281,19 +281,19 @@ export default function Home() {
                   <div key={label} className="flex items-start gap-4 group p-4 glass glass-hover rounded-sm">
                     <div className="w-10 h-10 bg-primary/10 flex items-center justify-center flex-shrink-0"><Ic size={18} className="text-primary" /></div>
                     <div>
-                      <p className="font-display font-bold text-[10px] uppercase tracking-[0.2em] text-white/25 mb-0.5">{label}</p>
+                      <p className="font-display font-bold text-[0.625rem] uppercase tracking-[0.2em] text-white/25 mb-0.5">{label}</p>
                       {href ? <a href={href} className="font-body text-sm text-white/50 hover:text-primary transition-colors">{val}</a> : <p className="font-body text-sm text-white/50">{val}</p>}
                     </div>
                   </div>
                 ))}
                 <div className="flex gap-3 pt-3">
-                  <a href={WA} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-primary text-[#060606] font-display font-bold text-[11px] uppercase tracking-wider px-6 py-3 hover:shadow-lg hover:shadow-primary/20 transition-all"><MessageCircle size={14} /> WhatsApp</a>
-                  <a href={IG} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 glass glass-hover text-white/40 font-display font-bold text-[11px] uppercase tracking-wider px-6 py-3 hover:text-primary"><IgIcon s={14} /> Instagram</a>
+                  <a href={WA} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-primary text-[#060606] font-display font-bold text-[0.6875rem] uppercase tracking-wider px-6 py-3 hover:shadow-lg hover:shadow-primary/20 transition-all"><MessageCircle size={14} /> WhatsApp</a>
+                  <a href={IG} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 glass glass-hover text-white/40 font-display font-bold text-[0.6875rem] uppercase tracking-wider px-6 py-3 hover:text-primary"><IgIcon s={14} /> Instagram</a>
                 </div>
               </div>
             </Reveal>
             <Reveal direction="right">
-              <div className="w-full h-[420px] overflow-hidden gradient-border rounded-sm">
+              <div className="w-full h-[26.25rem] overflow-hidden gradient-border rounded-sm">
                 <iframe src="https://maps.google.com/maps?q=Old+Harbour+Fitness+Kochi+Kerala&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style={{ border: 0, filter: "invert(90%) hue-rotate(180deg)" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Location" />
               </div>
             </Reveal>
@@ -308,7 +308,7 @@ export default function Home() {
             <div className="md:col-span-2 space-y-4">
               <div className="flex items-center gap-3">
                 <img src="/logo.jpg" alt="OH GYM" className="h-12 w-12 object-contain rounded" />
-                <div className="leading-none"><p className="font-display text-sm font-black tracking-wider text-white">OLD HARBOUR</p><p className="font-display text-[9px] font-bold tracking-[0.3em] text-primary/70">FITNESS</p></div>
+                <div className="leading-none"><p className="font-display text-sm font-black tracking-wider text-white">OLD HARBOUR</p><p className="font-display text-[0.5625rem] font-bold tracking-[0.3em] text-primary/70">FITNESS</p></div>
               </div>
               <p className="font-body text-xs text-white/25 leading-relaxed max-w-sm">A premium fitness space in Kochi focused on strength, discipline, and transformation. Join 500+ members who chose to level up.</p>
               <div className="flex gap-2.5 pt-1">
@@ -317,11 +317,11 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h5 className="font-display font-bold text-[9px] uppercase tracking-[0.3em] text-white/15 mb-4">Navigate</h5>
+              <h5 className="font-display font-bold text-[0.5625rem] uppercase tracking-[0.3em] text-white/15 mb-4">Navigate</h5>
               <ul className="space-y-2.5">{NAV.map(({ l, id }) => <li key={id}><button onClick={() => go(id)} className="font-body text-xs text-white/30 hover:text-primary transition-colors tracking-wider">{l}</button></li>)}</ul>
             </div>
             <div>
-              <h5 className="font-display font-bold text-[9px] uppercase tracking-[0.3em] text-white/15 mb-4">Contact</h5>
+              <h5 className="font-display font-bold text-[0.5625rem] uppercase tracking-[0.3em] text-white/15 mb-4">Contact</h5>
               <div className="space-y-2.5">
                 <a href="tel:+919633008768" className="block font-body text-xs text-white/30 hover:text-primary transition-colors tracking-wider">+91 9633008768</a>
                 <p className="font-body text-xs text-white/30 tracking-wider">6 AM – 10:30 PM</p>
@@ -330,8 +330,8 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-white/[0.03] pt-6 flex flex-col md:flex-row items-center justify-between gap-3">
-            <p className="font-body text-[9px] text-white/10 uppercase tracking-[0.3em]">© {new Date().getFullYear()} Old Harbour Fitness. All Rights Reserved.</p>
-            <p className="font-body text-[9px] text-white/10 tracking-[0.3em]">ESTD 2022 · KOCHI</p>
+            <p className="font-body text-[0.5625rem] text-white/10 uppercase tracking-[0.3em]">© {new Date().getFullYear()} Old Harbour Fitness. All Rights Reserved.</p>
+            <p className="font-body text-[0.5625rem] text-white/10 tracking-[0.3em]">ESTD 2022 · KOCHI</p>
           </div>
         </div>
       </footer>
