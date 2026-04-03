@@ -110,8 +110,8 @@ export default function Home() {
           <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-white/60"><Menu size={22} /></button>
         </div>
         {menuOpen && (
-          <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="md:hidden bg-[#060606]/98 backdrop-blur-2xl border-t border-white/[0.04] px-6 pb-6 pt-3">
-            <button onClick={() => setMenuOpen(false)} className="absolute top-4 right-6 text-white/40"><X size={20} /></button>
+          <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="md:hidden bg-[#060606]/98 backdrop-blur-2xl border-t border-white/[0.04] px-6 pb-6 pt-8 relative">
+            <button onClick={() => setMenuOpen(false)} className="absolute top-3 right-6 text-white/40 z-10"><X size={20} /></button>
             {NAV.map(({ l, id }) => (
               <button key={id} onClick={() => go(id)} className="block w-full text-left py-4 font-body text-xs font-bold uppercase tracking-widest text-white/40 hover:text-primary transition-colors border-b border-white/[0.03]">{l}</button>
             ))}
@@ -208,7 +208,7 @@ export default function Home() {
 
       {/* ══ WHY US ══ */}
       <section className="py-32 px-6 lg:px-10 border-y border-white/[0.03] relative overflow-hidden">
-  <div className="absolute -right-40 top-20 w-[31.25rem] h-[31.25rem] rounded-full bg-primary/[0.03] blur-[120px] pointer-events-none" />
+  <div className="hidden lg:block absolute -right-40 top-20 w-[31.25rem] h-[31.25rem] rounded-full bg-primary/[0.03] blur-[120px] pointer-events-none" />
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <Reveal direction="left">
             <div className="relative">
@@ -241,7 +241,7 @@ export default function Home() {
 
       {/* ══ PRICING ══ */}
       <section id="pricing" className="py-32 px-6 lg:px-10 relative overflow-hidden">
-  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[43.75rem] h-[31.25rem] bg-primary/[0.03] rounded-full blur-[150px] pointer-events-none" />
+  <div className="hidden lg:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[43.75rem] h-[31.25rem] bg-primary/[0.03] rounded-full blur-[150px] pointer-events-none" />
         <div className="absolute inset-0 bg-grid pointer-events-none opacity-40" />
         <div className="max-w-7xl mx-auto relative z-10">
           <Reveal><div className="text-center mb-20"><Tag text="Membership Plans" /><h2 className="font-display font-black text-4xl md:text-6xl uppercase tracking-tight">Invest In<br className="sm:hidden" /> Yourself</h2></div></Reveal>

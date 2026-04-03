@@ -25,7 +25,7 @@
 <main class="pt-32 pb-20">
 
 <section class="px-8 mb-24 relative overflow-hidden">
-<div class="absolute -right-20 top-0 opacity-10 pointer-events-none">
+<div class="hidden lg:block absolute -right-20 top-0 opacity-10 pointer-events-none">
 <h2 class="text-[20rem] font-black font-headline leading-none tracking-tighter uppercase select-none">LEVEL</h2>
 </div>
 <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-end gap-8">
