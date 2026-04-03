@@ -121,7 +121,7 @@ export default function Home() {
       </motion.nav>
 
       {/* ══ HERO ══ */}
-      <section ref={heroRef} id="home" className="relative min-h-screen flex items-end pb-28 md:items-center md:pb-0 overflow-hidden">
+      <section ref={heroRef} id="home" className="relative min-h-screen flex items-end pb-40 sm:pb-32 md:items-center md:pb-0 overflow-hidden">
         <motion.div style={{ y: heroY }} className="absolute inset-0">
           <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=85&auto=format&fit=crop" alt="" className="w-full h-full object-cover scale-110" />
         </motion.div>
@@ -162,11 +162,11 @@ export default function Home() {
           </Reveal>
         </motion.div>
 
-        <div className="absolute bottom-0 left-0 right-0 border-t border-white/[0.04]">
+        <div className="absolute bottom-0 left-0 right-0 border-t border-white/[0.04] mb-8 md:mb-0">
           <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 divide-x divide-white/[0.04]">
             {[{ v: 500, s: "+", l: "Active Members" }, { v: 10, s: "+", l: "Expert Trainers" }, { v: 4, s: ".8★", l: "Google Rating" }, { v: 3, s: "+", l: "Years Strong" }].map(({ v, s, l }) => (
-              <div key={l} className="text-center py-5 bg-[#060606]/60 backdrop-blur-sm">
-                <p className="font-display font-black text-xl md:text-2xl text-primary"><Counter target={v} suffix={s} /></p>
+              <div key={l} className="text-center py-4 sm:py-5 md:py-6 lg:py-8 px-2 sm:px-4 bg-[#060606]/60 backdrop-blur-sm">
+                <p className="font-display font-black text-lg sm:text-xl md:text-2xl text-primary"><Counter target={v} suffix={s} /></p>
                 <p className="font-body text-[0.5rem] uppercase tracking-[0.3em] text-white/25 mt-0.5">{l}</p>
               </div>
             ))}
@@ -175,14 +175,14 @@ export default function Home() {
       </section>
 
       {/* ══ MARQUEE ══ */}
-      <div className="py-5 bg-primary overflow-hidden">
+      <div className="py-5 bg-primary overflow-hidden mb-8 md:mb-0">
         <div className="animate-marquee flex whitespace-nowrap">
           {[0, 1].map(i => <span key={i} className="font-display font-black text-sm md:text-base uppercase tracking-[0.3em] text-[#060606] mx-2">{MARQUEE_TEXT}{MARQUEE_TEXT}</span>)}
         </div>
       </div>
 
       {/* ══ PROGRAMS ══ */}
-      <section id="programs" className="py-32 px-6 lg:px-10 relative">
+      <section id="programs" className="py-20 md:py-32 px-6 lg:px-10 relative">
   <div className="absolute top-0 left-0 right-0 h-[25rem] bg-gradient-to-b from-primary/[0.03] to-transparent pointer-events-none" />
         <div className="max-w-7xl mx-auto relative z-10">
           <Reveal><div className="text-center mb-20"><Tag text="What We Offer" /><h2 className="font-display font-black text-4xl md:text-6xl uppercase tracking-tight">Our Programs</h2></div></Reveal>
@@ -207,7 +207,7 @@ export default function Home() {
       </section>
 
       {/* ══ WHY US ══ */}
-      <section className="py-32 px-6 lg:px-10 border-y border-white/[0.03] relative overflow-hidden">
+      <section className="py-20 md:py-32 px-6 lg:px-10 border-y border-white/[0.03] relative overflow-hidden">
   <div className="hidden lg:block absolute -right-40 top-20 w-[31.25rem] h-[31.25rem] rounded-full bg-primary/[0.03] blur-[120px] pointer-events-none" />
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <Reveal direction="left">
@@ -240,7 +240,7 @@ export default function Home() {
       </section>
 
       {/* ══ PRICING ══ */}
-      <section id="pricing" className="py-32 px-6 lg:px-10 relative overflow-hidden">
+      <section id="pricing" className="py-20 md:py-32 px-6 lg:px-10 relative overflow-hidden">
   <div className="hidden lg:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[43.75rem] h-[31.25rem] bg-primary/[0.03] rounded-full blur-[150px] pointer-events-none" />
         <div className="absolute inset-0 bg-grid pointer-events-none opacity-40" />
         <div className="max-w-7xl mx-auto relative z-10">
@@ -267,7 +267,7 @@ export default function Home() {
       </section>
 
       {/* ══ CONTACT ══ */}
-      <section id="contact" className="py-32 px-6 lg:px-10 border-t border-white/[0.03]">
+      <section id="contact" className="py-20 md:py-32 px-6 lg:px-10 border-t border-white/[0.03]">
         <div className="max-w-7xl mx-auto">
           <Reveal><div className="text-center mb-20"><Tag text="Get In Touch" /><h2 className="font-display font-black text-4xl md:text-6xl uppercase tracking-tight">Visit Us Today</h2></div></Reveal>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
