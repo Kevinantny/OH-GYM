@@ -121,7 +121,7 @@ export default function Home() {
       </motion.nav>
 
       {/* ══ HERO ══ */}
-      <section ref={heroRef} id="home" className="relative min-h-screen flex items-end pb-40 sm:pb-32 md:items-center md:pb-0 overflow-hidden">
+      <section ref={heroRef} id="home" className="relative min-h-screen flex items-end pb-56 sm:pb-48 md:pb-40 lg:items-center lg:pb-0 overflow-hidden">
         <motion.div style={{ y: heroY }} className="absolute inset-0">
           <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=85&auto=format&fit=crop" alt="" className="w-full h-full object-cover scale-110" />
         </motion.div>
@@ -175,7 +175,7 @@ export default function Home() {
       </section>
 
       {/* ══ MARQUEE ══ */}
-      <div className="py-5 bg-primary overflow-hidden mb-8 md:mb-0">
+      <div className="py-5 bg-primary overflow-hidden my-12 md:my-6">
         <div className="animate-marquee flex whitespace-nowrap">
           {[0, 1].map(i => <span key={i} className="font-display font-black text-sm md:text-base uppercase tracking-[0.3em] text-[#060606] mx-2">{MARQUEE_TEXT}{MARQUEE_TEXT}</span>)}
         </div>
