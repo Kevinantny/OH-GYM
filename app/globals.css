@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  html { scroll-behavior: smooth; }
+  html { scroll-behavior: smooth; font-size: 16px; }
   body { @apply bg-[#060606] text-white antialiased overflow-x-hidden; }
   ::selection { @apply bg-[#cafd00]/30 text-white; }
 }

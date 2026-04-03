@@ -50,7 +50,7 @@
 <div class="relative overflow-hidden aspect-[4/5] mb-6 bg-surface-container-low">
 <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" data-alt="Intense professional fitness trainer with focused expression, high contrast lighting on sweat and muscle texture, dark editorial aesthetic" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1400&auto=format&fit=crop"/>
 <div class="absolute top-4 left-4 flex flex-col gap-2">
-<span class="bg-primary-container text-on-primary-fixed font-label text-[10px] font-black uppercase px-2 py-1 tracking-widest">Master Coach</span>
+<span class="bg-primary-container text-on-primary-fixed font-label text-[0.625rem] font-black uppercase px-2 py-1 tracking-widest">Master Coach</span>
 </div>
 <div class="absolute bottom-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
 <span class="material-symbols-outlined text-primary-container text-4xl" data-icon="arrow_outward">arrow_outward</span>
@@ -72,7 +72,7 @@
 <div class="relative overflow-hidden aspect-[4/5] mb-6 bg-surface-container-low">
 <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" data-alt="Female high performance athlete trainer in motion, dramatic shadows, vibrant kinetic energy, cinematic lighting in a dark gym setting" src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1400&auto=format&fit=crop"/>
 <div class="absolute top-4 left-4 flex flex-col gap-2">
-<span class="bg-primary-container text-on-primary-fixed font-label text-[10px] font-black uppercase px-2 py-1 tracking-widest">Performance Lead</span>
+<span class="bg-primary-container text-on-primary-fixed font-label text-[0.625rem] font-black uppercase px-2 py-1 tracking-widest">Performance Lead</span>
 </div>
 <div class="absolute bottom-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
 <span class="material-symbols-outlined text-primary-container text-4xl" data-icon="arrow_outward">arrow_outward</span>
@@ -94,7 +94,7 @@
 <div class="relative overflow-hidden aspect-[4/5] mb-6 bg-surface-container-low">
 <img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" data-alt="Male fitness trainer holding a kettlebell, sharp focus on muscular detail, low-key lighting, professional sports editorial style" src="https://images.unsplash.com/photo-1590487988256-9ed24133863e?w=1400&auto=format&fit=crop"/>
 <div class="absolute top-4 left-4 flex flex-col gap-2">
-<span class="bg-primary-container text-on-primary-fixed font-label text-[10px] font-black uppercase px-2 py-1 tracking-widest">Nutrition Specialist</span>
+<span class="bg-primary-container text-on-primary-fixed font-label text-[0.625rem] font-black uppercase px-2 py-1 tracking-widest">Nutrition Specialist</span>
 </div>
 <div class="absolute bottom-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform duration-500">
 <span class="material-symbols-outlined text-primary-container text-4xl" data-icon="arrow_outward">arrow_outward</span>
@@ -123,14 +123,14 @@
                         The silence within the storm. Elena integrates advanced mobility protocols with restorative breathwork to expand functional range of motion and mental focus.
                     </p>
 <div class="flex gap-4">
-<div class="px-4 py-2 border border-outline-variant/20 font-label text-[10px] uppercase font-bold tracking-widest text-on-surface">Flexibility</div>
-<div class="px-4 py-2 border border-outline-variant/20 font-label text-[10px] uppercase font-bold tracking-widest text-on-surface">Yoga Flow</div>
-<div class="px-4 py-2 border border-outline-variant/20 font-label text-[10px] uppercase font-bold tracking-widest text-on-surface">Longevity</div>
+<div class="px-4 py-2 border border-outline-variant/20 font-label text-[0.625rem] uppercase font-bold tracking-widest text-on-surface">Flexibility</div>
+<div class="px-4 py-2 border border-outline-variant/20 font-label text-[0.625rem] uppercase font-bold tracking-widest text-on-surface">Yoga Flow</div>
+<div class="px-4 py-2 border border-outline-variant/20 font-label text-[0.625rem] uppercase font-bold tracking-widest text-on-surface">Longevity</div>
 </div>
 </div>
 </div>
 
-<div class="bg-primary-container p-8 flex flex-col justify-between items-start min-h-[400px]">
+<div class="bg-primary-container p-8 flex flex-col justify-between items-start min-h-[25rem]">
 <div>
 <span class="material-symbols-outlined text-on-primary-fixed text-6xl mb-6" data-icon="bolt" style="font-variation-settings: 'FILL' 1;">bolt</span>
 <h3 class="font-headline text-4xl font-black text-on-primary-fixed uppercase tracking-tighter leading-none mb-4">Train With The Best.</h3>
@@ -146,7 +146,7 @@
 <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-12 py-20 w-full">
 <div class="flex flex-col gap-6">
 <div class="flex items-center gap-3">
-<svg viewBox="0 0 160 50" class="h-10 w-auto object-contain"><text x="0" y="38" font-family="sans-serif" font-weight="900" font-size="34" fill="#cafd00" letter-spacing="-1">OH<tspan fill="#ffffff">GYM</tspan></text></svg>
+<div class="mt-4 text-[0.625rem] text-white/30 uppercase tracking-[0.2em]">© 2022 OH GYM. ALL RIGHTS RESERVED.</div>
 <div class="text-xl font-black text-[#cafd00] font-headline uppercase tracking-tighter">OH GYM</div>
 </div>
 <p class="font-manrope text-white/50 text-sm leading-relaxed max-w-xs">
@@ -168,7 +168,7 @@
 <a class="text-white/50 hover:text-[#cafd00] transition-colors" href="/">Privacy Policy</a>
 <a class="text-white/50 hover:text-[#cafd00] transition-colors" href="/">Terms of Service</a>
 <a class="text-white/50 hover:text-[#cafd00] transition-colors" href="/">Contact Support</a>
-<div class="mt-4 text-[10px] text-white/30 uppercase tracking-[0.2em]">© 2022 OH GYM. ALL RIGHTS RESERVED.</div>
+<div class="mt-4 text-[0.625rem] text-white/30 uppercase tracking-[0.2em]">© 2022 OH GYM. ALL RIGHTS RESERVED.</div>
 </div>
 </div>
 </div>

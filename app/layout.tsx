@@ -15,6 +15,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${manrope.variable}`}>
+      <head>
+        {/* Ensure proper viewport scaling on different displays/devices */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body>{children}</body>
     </html>
   );
